@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
+        //The first examples shows basic understanding of the Class, object and methods ----
         Car myCar = new Car();
         myCar.color = "Blue";
         myCar.speed = 60;
@@ -18,5 +19,7 @@ public class Main {
         yourCar.accelerate(30);
         yourCar.brake(15);
         yourCar.stopEngine();
+
+        //End of first example -----------------------------------------------------------
     }
 }
